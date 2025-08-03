@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Form </title>
+    <style>
+        .body {
+            height: 100%;
+            width: 100%;
+        }
+
+        h1 {
+            text-align: center;
+            color: rgb(146, 16, 16);
+            text-shadow: 1px 1px brown;
+        }
+
+        #form {
+            align-items: center;
+            text-align: center;
+            border: 20px;
+            background-color: rgb(221, 220, 220);
+            width: 420px;
+            border-radius: 5px;
+            box-shadow: 2px 2px 3px 4px rgb(100, 96, 96);
+            margin-left: 29vw;
+        }
+       
+        .button {
+            background-color: rgb(235, 232, 232);
+            margin-bottom: 20px;
+            border-radius: 8px;
+            color: rgb(6, 12, 74); 
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Fill this form to join</h1>
+    <form id="form">
+        <label for="name">Name:</label>
+        <br>
+        <input type="text" id="name" name="name" placeholder="Name" required>
+        <br><br>
+
+        <label for="Surname">Surname:</label>
+        <br>
+        <input type="text" id="surname" name="surname" placeholder="Surname" required>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <br>
+        <input type="email" id="email" name="email" placeholder="Email" required>
+        <br><br>
+
+        <label for="Mobile No">Mobile No:</label>
+        <br>
+        <input type="number" id="number" name="number" placeholder="Number" required>
+        <br><br>
+
+        <label for="Address">Address:</label>
+        <br>
+        <textarea id="Address" name="Address" rows="4" cols="30" placeholder="Enter your address"></textarea>
+        <br><br>
+
+        <label for="message">Message:</label>
+        <br>
+        <textarea id="message" name="message" rows="4" cols="30" placeholder="Enter your message"></textarea>
+        <br><br>
+
+        <button class="button">Submit</button>
+    </form>
+</body>
+
+</html>

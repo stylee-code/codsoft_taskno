@@ -1,0 +1,35 @@
+.text-center {
+    text-align: center;
+    color: crimson;
+    text-shadow: 1px 1px black;
+}
+
+
+.bg-red{
+
+    background-color: aqua;
+}
+
+.container {
+    text-align: center;
+}
+
+
+.mx-auto {
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+.border-box{
+    border: 20px;
+    background-color: rgb(246, 241, 240);
+    width: 420px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 3px 4px rgb(200, 194, 194);
+}
